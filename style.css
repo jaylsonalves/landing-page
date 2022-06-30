@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #1a1a1a;
+    display: flex; 
+    flex-direction: column;
+}
+
+header{
+    background: #1a1a1a;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+section{
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px; 
+}
+
+sidebar{
+    background: rgb(37, 37, 37);
+    border: none;
+    box-shadow: 0px 5px 1px #a29ec2;
+    border-radius: 10px;
+    display: flex;
+    width: 200px;
+    height: 550px;
+    padding-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#img1{
+    background:rgb(37, 37, 37);
+    width: 130px;
+    height: 120;
+    margin-top: 30px;
+    border-radius: 100%;
+}
+
+#t2 {
+    font: 14px;
+    color: #f1f7ff;
+    font-family: 'Caveat', cursive, serif;
+    margin-top: 10px;
+}
+
+.descricao {
+    display: flex;
+    font: 12px;
+    color: #f1f7ff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+
+#paragrafo-descricao {
+    text-align: center;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.menu-link {
+    color: #f1f7ff;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+/*o ":houver" adiciona uma sombra ao passar o mouse*/
+.menu-link:hover {
+    color: #6968a3; 
+}
+
+.caixa-about {
+    display: flex;
+    background: #f1f7ff;
+    box-shadow: 1px 5px 1px #b3b1c4;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#t3 {
+    font: 14px #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.caixa-post {
+    font: 12px #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragrafo-post {
+    width: 500px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   border-top: 0.4px solid #1d1d1d;
+   padding-top: 10px;
+   font-size: 10px;
+}
+
+.footer-link {
+    color: #f1f7ff;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.footer-link:hover {
+    color: #6968a3; 
+}

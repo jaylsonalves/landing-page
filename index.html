@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Testando meu primeiro site">
+    <title>Teste</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js" charset="utf-8"></script>
+    <link media="all" rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <header> 
+    </header>
+    <section>
+        <sidebar class="caixa-descricao">
+            <img id="img1" src="1.png" alt="isso é uma imagem">
+            <span><h2 id="t2">Jaylson Carrilho</h2></span>
+            <div class="descricao">
+                <p id="paragrafo-descricao" class="d1">
+                    Professor | Dev front-end
+                </p>
+            </div>
+            <nav class="menu">
+                <a class="menu-link" href="#">Portfolio</a>
+                <a class="menu-link" href="#">Contact</a>
+            </nav>
+        </sidebar>
+        <main class="caixa-about">
+            <h3 id="t3">About</h3>
+            <article class="caixa-post">
+                <p class="paragrafo-post">
+                   Olá! Seja bem-vindo. Me chamo Jaylson Carrilho, sou professor de língua estrangeira, tenho formação em Letras
+                    e pós-graduação em Neuropsicopedagogia; 
+                   amo tecnologia e por resolvi novamente cursar outra graduação (Sistemas de Informação).<br>
+                </p>
+                <p class="paragrafo-post">
+                    Recentemente passei no Bootcamp Santander Full Stack, em parceria com a Dio, onde
+                   tenho aprendido muita coisa, o que também tem me ajudado bastante com a faculdade, 
+                   pois sei que a área de programação não é uma jornada facíl. 
+                   Mas irei me dedicar dia após dia, minha pretenção é seguir a carreira
+                    de desenvolvimento em frontend, pois gosto muito da parte de criação e design. 
+                    E essa é minha primeira "landing page", espero que apreciem.
+                </p>
+            </article>
+        </main>
+        <script>
+            var appText = document.querySelector('.d1');
+            var twText = document.querySelector('.d1').innerText;
+            var typewriter = new Typewriter(appText, { 
+                loop: true,
+             });
+
+  typewriter
+  .typeString(twText)
+  .pauseFor(1500)
+  .start();
+        </script>
+    </section>
+    <footer>    
+        <a class="footer-link" href="#">© 2022, JCAS</a>
+    </footer>
+</body>
+</html>
